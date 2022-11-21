@@ -1,73 +1,94 @@
-.body {
-    background-color:rgb(71, 207, 112);
+html,body
+{
+  background-color: #ffdab9;
 }
-
-.header {
-    font-size: large;
-	color: blue;
-	width: 100%;
-	background-color: yellowgreen;
-	padding: 20px;
-	height: 120px;
+#line 
+{
+    background-color: #c2e69e;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  font-size: 60px;
+  color: #008000;
 }
-
-.picture {
-	padding: 10px 10px 10px 15%;
-	float: left;
-	margin-right: 10px;
-	height: 120px;
+#logotip 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
 }
-
-#menu li {
-	display: inline-block;
+.menu ul li
+{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 160px;
+  text-align: center;
+} 
+.menu
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left:480px;
+  height: 50px;
 }
-
-#menu a {
-	display: block;
-	padding: 5px 15px;
-	color: #fff;
-	text-decoration: none;
+.adresa
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left:480px;
 }
-
-#menu {
-	color: darkslateblue;
-	max-width: 960px;
-	background-color: darkseagreen;
-	margin: 0 auto;
-	margin-top: 20px;
-	padding: 10px;
+table 
+{
+  border: 1px solid #c2e69e;
+  width: 900px;
+  background: #ffff;
 }
-
-.nav {
-	color: darkolivegreen;
-	max-width: 960px;
-	background-color: darkseagreen;
-	margin: 0 auto;
-	text-decoration: none;
-	margin-top: 20px;
-	padding: 10px;
+td, th 
+{
+    padding: 3px;
 }
-
-.nav a {
-	text-decoration: none;
-	color: saddlebrown
+th 
+{
+  text-align: center;
+  padding: 10px; 
+  border: 1px solid #A9E2CC;
 }
-
-tr:nth-child(even) {
-	background: burlywood;
+td 
+{
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #A9E2CC;
 }
-
-tr:nth-child(odd) {
-	background: cadetblue;
+tr.even 
+{
+  background: #256902;
 }
-
-#footer {
-	background-color: bisque;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	padding: 0px 0px 0px 10px;
-	width: 100%;
-	font-size: 19px;
-	color: darkolivegreen;
+.table
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+}
+.forma
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+}
+.footer
+{
+  background-color: #c2e69e;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 50px;
+  color: #008000;
+  font-size: 30px;
 }
